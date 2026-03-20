@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <Home></Home>
+    <div className="App">
+      <h1 style={{color: 'red', fontSize: '50px'}}>TEST - Can you see this?</h1>
+    </div>
   );
 }
 
